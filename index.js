@@ -3,14 +3,26 @@
 // console.log(x);
 // console.log(typeof x);
 
+// const x = 90;
+// console.log(x);
+// console.log(typeof x);
+
 //float
 // const result = 5.98;
 // console.log(result);
 // console.log(typeof results);
 // console.log(typeof results);
 
+// const result = 4.56;
+// console.log(result);
+// console.log(typeof results);
+
 //string
 // const output = "Ram Thapa";
+// console.log(output);
+// console.log(typeof output);
+
+// const output = "rohan bhujel";
 // console.log(output);
 // console.log(typeof output);
 
@@ -19,7 +31,15 @@
 // console.log(ismarried);
 // console.log(typeof married);
 
+// const ismarried = true;
+// console.log(ismarried);
+// console.log(typeof ismarried);
+
 //undefined
+// let a;
+// console.log(a);
+// console.log(typeof a);
+
 // let a;
 // console.log(a);
 // console.log(typeof a);
@@ -29,13 +49,25 @@
 // console.log(x);
 // console.log(typeof x);
 
+// const x = null;
+// console.log(x);
+// console.log(typeof x);
+
 //bigint
 // const x = 3557567643n;
 // console.log(x);
 // console.log(typeof x);
 
+// const x = 3258346n ;
+// console.log(x);
+// console.log(typeof x);
+
 //Symbol
 // const result = Symbol("who are you");
+// console.log(result);
+// console.log(typeof result);
+
+// const result = Symbol("i am rohan");
 // console.log(result);
 // console.log(typeof result);
 
@@ -48,9 +80,25 @@
 // console.log(obj);
 // console.log(typeof obj);
 
+// const obj = {
+//     fName: "rohan bhujel",
+//     age: "22",
+//     ismarried: "false",
+// };
+// console.log(obj);
+// console.log(typeof obj);
+
 // const arr = [2,3,4,5,6,7,8]
 // console.log(arr);
 // console.log(typeof arr);
+
+// const Arr = [1,2,3,4,5,6]
+// console.log(Arr);
+// console.log(typeof Arr);
+
+// const date = new Date();
+// console.log(date);
+// console.log(typeof date);
 
 // const date = new Date();
 // console.log(date);
@@ -62,6 +110,16 @@
 // console.log(val);
 // console.log(typeof val);
 
+// const x = "123";
+// const val = Number(x);
+// console.log(val);
+// console.log(typeof val);
+
+// const result = "8.98";
+// const output = parseFloat(result);
+// console.log(output);
+// console.log(typeof output);
+
 // const result = "8.98";
 // const output = parseFloat(result);
 // console.log(output);
@@ -71,9 +129,22 @@
 // console.log(result);
 // console.log(typeof result);
 
+// const result = 1 + "1";
+// console.log(result);
+// console.log(typeof result);
+
 // const output = 8 - "4";
 // console.log(output);
 // console.log(typeof output);
+
+// const output = 8 - "4";
+// console.log(output);
+// console.log(typeof output);
+
+// const x = 123;
+// const result = x.toString();
+// console.log(result);
+// console.log(typeof result);
 
 // const x = 123;
 // const result = x.toString();
@@ -85,10 +156,25 @@
 // console.log(true+x);
 // console.log(false+x);
 
+// const x = 2;
+// const y = false;
+// console.log(true+x);
+// console.log(false+x);
+
 // let x ="";
 // let result = Boolean(x);
 // console.log(x);
 // console.log(typeof x);
+
+// let x = "";
+// let result = Boolean(x);
+// console.log(x);
+// console.log(typeof x);
+
+// let result = true;
+// let output = String(result);
+// console.log(output);
+// console.log(typeof output);
 
 // let result = true;
 // let output = String(result);
@@ -100,49 +186,84 @@
 //  console.log(result);
 //  console.log(typeof result);
 
+// let date = new Date();
+// let result = date.toString();
+// console.log(result);
+// console.log(typeof result);
+
 
 //String Method
 //  const result = "Hello World";
 
+// const result = "Hello Nepal";
+
 // //Length
 //  console.log(result.length);
+
+// console.log(result.length);
 
 // //charAt
 //  console.log(result.charAt(2));
 
+// console.log(result.charAt(2));
+
 // //indexof
 //  console.log(result.indexOf("0"));
 
+// console.log(result.indexOf("0"));
+
 // //lastIndexOf
+// console.log(result.lastIndexOf("0"));
+
 // console.log(result.lastIndexOf("0"));
 
 // //LoweCase
 // console.log(result.toLowerCase());
 
+// console.log(result.toLowerCase());
+
 // //upperCase
+// console.log(result.toUpperCase());
+
 // console.log(result.toUpperCase());
 
 // //split
 // console.log(result.split(""));
 
+// console.log(result.split(""));
+
 // //includes
 // console.log(result.includes("Worlds"));
+
+// console.log(result.includes("Nepal"));
 
 // //replace
 // console.log(result.replace("World","EveryOne"));
 
+// console.log(result.replace("nepal","mero desh"));
+
 // //slice
 // console.log(result.slice(1,5));
 
+// console.log(result.slice(1,3));
+
 // //subString
+// console.log(result.substring(1,4));
+
 // console.log(result.substring(1,4));
 
 // //trim
 // const output = "     k    xa     raja";
 // console.log(output.trim());
 
+
+// const output = "hello    mero   name         rohan ho";
+// console.log(output.trim());
+
 // //concatination
 // console.log(result.concat(" I am Rohan!"));
+
+// console.log(result.concat("ma rohan ho!"));
 
 //Operators
 //AssignMent Operators
@@ -151,10 +272,27 @@
 //  y +=120;
 //   console.log(y);
 
+// let x = 50;
+// x += 30;
+// console.log(x);
+
 //comparison Operators
 // let a = 10;
 // let b = 30;
 // let c = "10"
+
+// let x = 20;
+// let y = 40;
+// let z = 50;
+
+// console.log(x==y);
+// console.log(x===y);
+// console.log(x!=y);
+// console.log(x !==z);
+// console.log(x>y);
+// console.log(x<y);
+// console.log(x>=y);
+// console.log(x<=5);
 
 // //
 // console.log(a==b);
@@ -170,6 +308,13 @@
 // let x = true;
 // let y = false;
 
+// let x = true;
+// let y = false;
+
+// console.log(x && y);
+// console.log(x || y);
+// console.log(!x);
+
 // console.log(x && y);
 // console.log(x || y);
 // console.log(!x);
@@ -179,16 +324,29 @@
 // const str2 = "World";
 // console.log(str1+" "+str2);
 
+// const str1 = "hello";
+// const str2 = "world";
+// console.log(str1+str2);
+
 //conditional Operators
 // let ageVote = 90;
 // let result = ageVote >=18 ? "vote" : "not vote";
 // console.log(result);
 
-//
+// let ageVote = 90;
+// let result = ageVote >=18 ? "vote" : "not vote";
+// console.log(result);
+
+
 // const result = "Hello ROhan";
 // const output = "I Love You";
 // const Str3 = "lastai garo vayo";
 
+// console.log(`${result} ${output} ${Str3}`);
+
+// const result = "Hello Rohan";
+// const output = "I hate you";
+// const Str3 = "k garni hola";
 // console.log(`${result} ${output} ${Str3}`);
 
 // const a = 90;
@@ -549,14 +707,287 @@
 // }
 // myFunc();
 
-function myFunc() {
+// function myFunc() {
     
-    if(true){
-    var x = 90;
-    let y = 80;
-    const z = 60;
-    console.log(y);
-    }
-    console.log(x);
+//     if(true){
+//     var x = 90;
+//     let y = 80;
+//     const z = 60;
+//     console.log(y);
+//     }
+//     console.log(x);
+// }
+// myFunc();
+
+// const a = 21;
+// const b = 31;
+// console.log(a+b);
+// console.log(a+b);
+
+// const symbol = "my name is rohan";
+// console.log(symbol);
+// console.log(typeof symbol);
+
+// const number = [1, 2, 3, 4, 5]
+// console.log();
+// console.log(number);
+// console.log(typeof number);
+
+// const isMarried = "False";
+// console.log(isMarried);
+// console.log(typeof isMarred);
+
+//DOM Manipulation
+//  let result = document.getElementById("hello");
+//  console.log(result);
+//  result.innerText = "I am hero";
+//  console.log(result);
+//  result.style.backgroundColor ="red";
+//  result.style.color = "white";
+// result.style.textAlign = "center";
+
+// result.setAttribute("class", "New class");
+// console.log(result.getAttribute("class"));
+
+//   let ans = document.getElementsByClassName("Div");
+//   ans.innerHTML = "K XA RAJA KHANA KHAYAU";
+//   ans.style.backgroundColor ="blue";
+//    ans.style.color = "white";
+//   ans.style.textAlign = "center";
+
+
+//    let output = document.getElementsByClassName("Div");
+//    output[1].innerHTML = "KALANKI NEPAL MA OPPORTUNITIES";
+//    output[1].style.background = "purple";
+//    output[1].style.color = "white";
+//    output[1].style.textAlign = "center";
+//    output[1].style.padding = "10px";
+
+//  let display = document.getElementsByTagName("span")[0];
+//  display.innerHTML = "Nepal ma oli muji maryo ";
+//  display.style.background = "yellow";
+//  display.style.color = "black";
+
+//  let show = document.getElementsByTagName("span")[1];
+//  show.innerText = "oli paxi parchanda ";
+//  display.style.backgroundColor = "grey";
+//  display.style.color = "white";
+
+// let h1 = document.createElement("h1");
+// h1.innerText = "my name is rohan";
+// document.body.prepend(h1);
+
+// function AddTask() {
+//     let h1 = document.createElement("h1");
+//     h1.innerHtml = "task1";
+//     document.body.append(h1);
+// }
+
+// function RemoveTask() {
+//     let div = document.querySelector("h1")
+//     div.remove();
+    
+// }
+
+//   let btnAdd = document.querySelector("#btnAdd");
+//   btnAdd.style.background = "blue";
+//   btnAdd.style.color = "#000";
+//   btnAdd.style.padding = "20px";
+//   btnAdd.style.border = "none";
+//   btnAdd.style.cursor = "pointer";
+//   console.log(btnAdd);
+
+//   btnAdd.onclick = AddTask;
+
+
+//   let btnRemove = document.querySelectorAll("button")[1];
+//   btnRemove.style.backgroundColor = "red";
+//   btnRemove.style.color = "blue";
+//   btnRemove.style.padding = "20px";
+//   btnRemove.style.border = "none";
+//   btnRemove.style.cursor = "pointer";
+
+// btnRemove.onclick = RemoveTask;
+
+//  console.log(btnRemove);
+
+//  let ans = document.getElementById("hello1");
+
+
+//Advance Array Method
+
+// const Add = (a,b)=> {
+// let result = a + b;
+// return result;
+// }
+
+// let output = Add(4,5);
+// console.log(output);
+
+// let arr = [4,5,6,7,8,9,]
+// //find method
+// const MyFunc = (value)=>{
+// let result = value > 7
+// return result;
+// };
+// let ans =arr.find(MyFunc);
+// console.log(ans);
+
+
+// let arr = [4,5,6,7,8,9];
+
+// let ans = arr.find((value)=> {
+// let result = value > 7;
+// return result;
+// });
+// console.log(ans);
+
+//  let arr =[1,2,3,4,5,6];
+
+//  let ans = arr.find((value) => value > 2);
+//  console.log(ans);
+
+
+// const products = [{id:1,name:"rohan",price:67000, inStock:true},
+// {id:1,name:"roshan",price:6000, inStock:false},{id:1,name:"sushant",price:7000, inStock:true},
+// {id:1,name:"ronit",price:1000, inStock:false},{id:1,name:"hero",price:89000, inStock:true},
+// ];
+
+// let output = products.find((value)=>value.inStock);
+// console.log(output);
+
+//filter
+// let output = products.find((value)=>value.inStock);
+// console.log(output);
+
+//  const products = [{id:1,name:"rohan",price:67000, inStock:true},
+//  {id:1,name:"roshan",price:6000, inStock:false},{id:1,name:"sushant",price:7000, inStock:true},
+//  {id:1,name:"ronit",price:1000, inStock:false},{id:1,name:"hero",price:89000, inStock:true},
+//  ];
+
+//  let output = products.filter((value)=> !value.inStock);
+//  console.log(output);
+
+// some
+// let ans = arr.some((value) => value > 2);
+// console.log(ans);
+
+// const products = [{id:1,name:"rohan",price:67000, inStock:true},
+//     {id:1,name:"roshan",price:6000, inStock:false},{id:1,name:"sushant",price:7000, inStock:true},
+//     {id:1,name:"ronit",price:1000, inStock:false},{id:1,name:"hero",price:89000, inStock:true},
+//     ];
+   
+//     let output = products.some((value)=> !value.inStock);
+//     console.log(output);
+
+    //every
+//     let ans = arr.every((value) => value > 2);
+// console.log(ans);
+
+// const products = [{id:1,name:"rohan",price:67000, inStock:true},
+//     {id:1,name:"roshan",price:6000, inStock:false},{id:1,name:"sushant",price:7000, inStock:true},
+//     {id:1,name:"ronit",price:1000, inStock:false},{id:1,name:"hero",price:89000, inStock:true},
+//     ];
+   
+//     let output = products.every((value)=> !value.inStock);
+//     console.log(output);
+
+//forEach
+// let ans = arr.forEach((value) => value * 2);
+// console.log(ans);
+
+// const products = [{id:1,name:"rohan",price:67000, inStock:true},
+//     {id:1,name:"roshan",price:6000, inStock:false},{id:1,name:"sushant",price:7000, inStock:true},
+//     {id:1,name:"ronit",price:1000, inStock:false},{id:1,name:"hero",price:89000, inStock:true},
+//     ];
+   
+//     let output = products.forEach((value)=> !value.name);
+//     console.log(output);
+
+//Map
+// let ans = arr.map((value) => value * 2);
+// console.log(ans);
+
+// const products = [{id:1,name:"rohan",price:67000, inStock:true},
+//     {id:1,name:"roshan",price:6000, inStock:false},{id:1,name:"sushant",price:7000, inStock:true},
+//     {id:1,name:"ronit",price:1000, inStock:false},{id:1,name:"hero",price:89000, inStock:true},
+//     ];
+   
+//     let output = products.map((value)=> value.name);
+//     console.log(output);
+// let h1 = document.createElement("h1");
+// h1.innerHTML = output;
+// document.body.append(h1);
+
+//reduce
+// let ans = arr.reduce((accum, curValue) => accum + curValue);
+// console.log(ans);
+
+// const products = [{id:1,name:"rohan",price:67000, inStock:true},
+//     {id:1,name:"roshan",price:6000, inStock:false},{id:1,name:"sushant",price:7000, inStock:true},
+//     {id:1,name:"ronit",price:1000, inStock:false},{id:1,name:"hero",price:89000, inStock:true},
+//     ];
+   
+//     let output = products.reduce((total, curValue)=> total + curValue.price, 0);
+//     console.log(output);
+
+
+
+//addEventisteres
+// const heading = document.getElementById("heading");
+// const box1 = document.getElementById("box1");
+// const btnAdd = document.getElementById("btnAdd");
+// let input = document.getElementById("newInput")
+
+// btnAdd.addEventListener("click", () =>{
+//     console.log("clicked");
+//     heading.innerText = "10% Discount";
+//     heading.style.backgroundColor = "red";
+//     heading.style.color = "white";
+//     heading.style.padding = "20px";
+// });
+
+// btnAdd.addEventListener("dblclick", () => {
+//     btnAdd.style.background ="purple";
+//     btnAdd.style.color = "white";
+//     btnAdd.style.padding = "20px";
+//     btnAdd.style.border = "none";
+// });
+
+// input.addEventListener("change", (e) => {
+//     console.log(e.target.value);
+// });
+
+const input = document.getElementById("myInput");
+const btnAdd = document.getElementById("btnAdd");
+const removebtn = document.getElementById("removebtn");
+
+const myFunc = () => {
+    localStorage.setItem("key1",JSON.stringify({name:"rohan bhujel", age:23}))
+};
+
+btnAdd.addEventListener("click", myFunc);
+
+removebtn.addEventListener("clcik", () => {
+ localStorage.clear();
+});
+if (localStorage.getItem("key1")) {
+    console.log(JSON.parse(localStorage.getItem("key1")));
 }
-myFunc();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
